@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Shop</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/hardware_icon.png" alt="" width="50" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Hardware Shop</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="signup.html">Войти</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="search">
+            <button class="btn btn-outline-success" type="search">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Регистрация</h1>
+      <form>
+          <div class="row g-3 mb-5">
+              <div class="col-md-4">
+                <label class="form-label" for="username">Имя</label>
+                <input class="form-control" type="text" id="username" placeholder="Введите имя">
+              </div>
+              <div class="col-md-4">
+                <label class="form-label" for="username">Фамилия</label>
+                <input class="form-control" type="text" id="surname" placeholder="Введите фамилию">
+              </div>
+              <div class="col-md-4">
+                <label class="form-label" for="brith">Дата рождения</label>
+                <input class="form-control" type="date" id="brith">
+              </div>
+              <div class="col-md-4">
+                <label class="form-label" for="mail">Почта</label>
+                <input class="form-control" type="email" id="mail" placeholder="exampl@mail.ru">
+              </div>
+              <div class="col-md-4">
+                <label class="form-label" for="number">Номер телефона</label>
+                <input class="form-control" type="tel" id="number" placeholder="8 (999) 999 99 99">
+              </div>
+              <div class="col-md-4">
+                <label class="form-label" for="password">Пароль</label>
+                <input class="form-control" type="password" id="password" placeholder="Введите пароль">
+              </div>
+          </div>
+          <footer class="row g-3 mb-5">
+            <div class="col-md-8">
+              <div class="form-check">
+                <input id="agreement" class="form-check-input" type="checkbox">
+                <label for="agreement" class="form-check-label">Подписаться на рассылки</label>
+              </div>
+              <div class="col-md-4">
+                  <button type="submit" class="btn btn-primary w-100">
+                    <a href="main-page-authorization.html" class="signupbtn">Войти</a>
+                  </button>
+              </div>
+            </div>
+          </footer>
+      </form>
+  </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
